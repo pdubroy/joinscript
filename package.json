@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "author": "Patrick Dubroy <pdubroy@gmail.com> (http://dubroy.com)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "jsjoins": "^0.3.0",
+    "ohm-js": "github:cdglabs/ohm#a795b4d907364b5fa5fb77d25be8ee2cf9ea45ee"
+  },
   "devDependencies": {
-    "browserify": "^5.9.1",
+    "browserify": "^13.0.0",
     "eslint": "^2.8.0",
     "eslint-config-google": "^0.5.0",
     "tap-spec": "^1.0.1",
     "tape": "^2.13.4",
-    "watchify": "^1.0.1",
+    "watchify": "^3.7.0",
     "watchy": "^0.6.1"
   },
   "scripts": {
